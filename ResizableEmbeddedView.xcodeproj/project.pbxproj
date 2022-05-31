@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E031623A28460C0A0034B080 /* ResizableEmbeddedViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031623928460C0A0034B080 /* ResizableEmbeddedViewApp.swift */; };
-		E031623C28460C0A0034B080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031623B28460C0A0034B080 /* ContentView.swift */; };
+		E031623C28460C0A0034B080 /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031623B28460C0A0034B080 /* CatViewController.swift */; };
 		E031623E28460C0B0034B080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E031623D28460C0B0034B080 /* Assets.xcassets */; };
 		E031624128460C0B0034B080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E031624028460C0B0034B080 /* Preview Assets.xcassets */; };
+		E031624828460C530034B080 /* CatsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031624728460C530034B080 /* CatsUIView.swift */; };
+		E031624A284619780034B080 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0316249284619780034B080 /* CatsView.swift */; };
+		E031624C284619A50034B080 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031624B284619A50034B080 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E031623628460C0A0034B080 /* ResizableEmbeddedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableEmbeddedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E031623928460C0A0034B080 /* ResizableEmbeddedViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableEmbeddedViewApp.swift; sourceTree = "<group>"; };
-		E031623B28460C0A0034B080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E031623B28460C0A0034B080 /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		E031623D28460C0B0034B080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E031624028460C0B0034B080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E031624728460C530034B080 /* CatsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUIView.swift; sourceTree = "<group>"; };
+		E0316249284619780034B080 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
+		E031624B284619A50034B080 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				E031623928460C0A0034B080 /* ResizableEmbeddedViewApp.swift */,
-				E031623B28460C0A0034B080 /* ContentView.swift */,
+				E031623B28460C0A0034B080 /* CatViewController.swift */,
+				E031624728460C530034B080 /* CatsUIView.swift */,
+				E0316249284619780034B080 /* CatsView.swift */,
+				E031624B284619A50034B080 /* Cat.swift */,
 				E031623D28460C0B0034B080 /* Assets.xcassets */,
 				E031623F28460C0B0034B080 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E031623C28460C0A0034B080 /* ContentView.swift in Sources */,
+				E031624828460C530034B080 /* CatsUIView.swift in Sources */,
+				E031623C28460C0A0034B080 /* CatViewController.swift in Sources */,
+				E031624C284619A50034B080 /* Cat.swift in Sources */,
 				E031623A28460C0A0034B080 /* ResizableEmbeddedViewApp.swift in Sources */,
+				E031624A284619780034B080 /* CatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
