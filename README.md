@@ -1,6 +1,6 @@
 # ResizableEmbeddedView
 
-Showcasing a resizable SwiftUI View inside a UIStackView. Dig through the code and play around to learn more about this use case
+Showcasing a resizable SwiftUI View inside a UIStackView. Dig through the code and play around to learn more about this use case.
 
 Here's how this sample app looks like:  
 
